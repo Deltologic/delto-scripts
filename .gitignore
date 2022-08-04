@@ -1,0 +1,10 @@
+# python
+venv
+env
+**/__pycache__/**
+
+# js
+node_modules
+
+# ide
+.idea
