@@ -18,7 +18,7 @@ const AWS_ACCESS_KEY_ID = '_AWS_ACCESS_KEY_ID_'
 const AWS_SECRET_ACCESS_KEY = '_AWS_SECRET_ACCESS_KEY_'
 const AWS_SELLING_PARTNER_ROLE = '_AWS_SELLING_PARTNER_ROLE_'
 
-// Amazon required credentials to connect with SP-API
+// Required parameters to make API call in the script
 const MARKETPLACE_IDS = ['A1C3SOZRARQ6R3'] // take required from https://docs.developer.amazonservices.com/en_UK/dev_guide/DG_Endpoints.html
 const ORDER_CREATED_AFTER = '2022-07-01' // required param, get order only after this date
 
