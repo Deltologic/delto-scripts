@@ -9,6 +9,7 @@
 import { Client } from "@notionhq/client";
 import express from "express"
 import bodyParser from "body-parser"
+import cors from "cors"
 
 const PORT = 8080
 const NOTION_API_KEY = 'secret_*************'
@@ -19,6 +20,8 @@ const app = express()
 
 app.use(bodyParser.json())
 app.use(express.urlencoded({ extended: true }))
+
+app.use(cors())
 
 app.post('/notion', async (req, res) => {
     if (!('ticket_name' in req.body)) {

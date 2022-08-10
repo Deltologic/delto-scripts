@@ -10,6 +10,8 @@ a contact form on a page to create a task in the system.
 - [@notionhq/client](https://www.npmjs.com/package/@notionhq/client)
 - [express](https://www.npmjs.com/package/express)
 - [body-parser](https://www.npmjs.com/package/body-parser)
+- [cors](https://www.npmjs.com/package/cors)
+
 
 ## Notion configuration
 ### Registering application
