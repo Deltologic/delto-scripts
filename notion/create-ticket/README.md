@@ -11,6 +11,7 @@ a contact form on a page to create a task in the system.
 - [express](https://www.npmjs.com/package/express)
 - [body-parser](https://www.npmjs.com/package/body-parser)
 - [cors](https://www.npmjs.com/package/cors)
+- [multer](https://www.npmjs.com/package/multer)
 
 
 ## Notion configuration

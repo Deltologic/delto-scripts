@@ -10,6 +10,7 @@ import { Client } from "@notionhq/client";
 import express from "express"
 import bodyParser from "body-parser"
 import cors from "cors"
+import multer from "multer"
 
 const PORT = 8080
 const NOTION_API_KEY = 'secret_*************'
@@ -20,6 +21,7 @@ const app = express()
 
 app.use(bodyParser.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(multer().array())
 
 app.use(cors())
 
@@ -37,7 +39,7 @@ app.post('/notion', async (req, res) => {
             continue;
         }
 
-        contentBlocks.push(createBlockObject(`${key.toUpperCase()}:\n${req.body['key']}\n`))
+        contentBlocks.push(createBlockObject(`${key.toUpperCase()}:\n${req.body[key]}\n`))
     }
 
     try {
