@@ -4,6 +4,11 @@ A simple server that allows you to create tasks
 in the Notion system based on the request data. 
 The server can be used, for example, when submitting 
 a contact form on a page to create a task in the system.
+
+## Video
+https://user-images.githubusercontent.com/56962880/184115588-48f50925-8c10-4524-8616-00fd2e825752.mp4
+
+
 ## Languages
 ### Javascript (Node.js)
 #### Dependencies
