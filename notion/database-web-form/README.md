@@ -1,4 +1,4 @@
-# Notion API - create generic tickets
+# Notion API - create generic tickets on form submission
 ## Description
 A simple server that allows you to create tasks 
 in the Notion system based on the request data. 
