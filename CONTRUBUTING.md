@@ -3,7 +3,7 @@ Welcome! 👋👋🏻👋🏼👋🏽👋🏾👋🏿 We really appreciate that 
 
 In case anything is unclear or you thing something is missing in this guide, feel free to submit an issue with label `documentation`.
 
-## 🔥 Making a contrubution 
+## 🔥 Making a contribution 
 To make a contribution please follow those steps:
 1. Choose an existing issue or create new one (for details about creating issues check second part of this guide).
 1. Post a commnent on the issue stating that you would like to work on it.
