@@ -13,14 +13,8 @@ Simple _Slash Command_ implementation for creating Google Meet links direclty fr
 
 ## Languages
 ### Python
-#### Dependencies
-The script uses:
-- requests,
-- Flask.
-
-`pip install flask requests`
-
 #### Build & Run
+To install dependencies type: `pip install flask requests`
 To run the server type: `python mattermost-google-meet-links.py` 
 
 
