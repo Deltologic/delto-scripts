@@ -9,6 +9,7 @@ To make a contribution please follow those steps:
 1. Post a commnent on the issue stating that you would like to work on it.
 1. Fork this repositoryu into your account/organization.
 1. Create new branch with name shortlty describing the change.
+1. If you are adding new script, create dedicated directory for it and copy contents of `_template` directory as project starter.
 1. When you are ready, submit a pull request directly to this repository.
 
 ## 🚀 Submiting an issue 
