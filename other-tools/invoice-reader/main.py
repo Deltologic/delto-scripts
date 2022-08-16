@@ -1,5 +1,5 @@
 import sys
-from pdf_invoice_parse import pdf_invoice_parse
+from pdf_invoice_parse import read_invoice_and_put_to_sheets
 
 if __name__ == '__main__':
-    pdf_invoice_parse(sys.argv[1])
+    read_invoice_and_put_to_sheets(sys.argv[1])
