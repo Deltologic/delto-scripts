@@ -19,10 +19,21 @@ const s3 = new AWS.S3({apiVersion: '2006-03-01', credentials: creadentials})
 // keys of objects to delete
 const toDelete = ['key1']
 
+// max number of concurrent requests
+const numberOfWorkers = 50
+
 async function script() {
-    // iteratively count all selected objects
-    for(const key of toDelete) {
-        await s3.deleteObject({  Bucket: source.bucket, Key: key }).promise()
+    // concurrently count all selected objects
+    const workers = []
+    for (const key of toDelete) {
+        // schedule current object deletion
+        const worker = s3.deleteObject({  Bucket: source.bucket, Key: key }).promise()
+        workers.push(worker)
+        // await deletions
+        while (workers.length > numberOfWorkers) {
+            const worker = workers.shift()
+            await worker
+        }
     }
 }
 
