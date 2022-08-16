@@ -2,7 +2,7 @@
 ## Description
 Script template for migrating all S3 objects from one bucket to another. The second bucket may be in different AWS account than the first one.
 
-## Getting started [remove if no pre-start steps are necessary]
+## Getting started
 Before runnig the script, you need to fill in the AWS connection information:
 ```js
 const configSource = {
@@ -20,13 +20,13 @@ const configDestination = {
 ## Languages
 ### JavaScript
 #### Build
-In oder to download the dependencies type:
+In order to download the dependencies type:
 ```shell
 npm i
 ```
 
 #### Build
-In oder to download start the scripts type:
+In order to start the script type:
 ```shell
 node script.js
 ```

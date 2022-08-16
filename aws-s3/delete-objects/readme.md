@@ -2,7 +2,7 @@
 ## Description
 Script template for deleting S3 objects by list of their ids
 
-## Getting started [remove if no pre-start steps are necessary]
+## Getting started
 Before runnig the script, you need to fill in the AWS connectin information:
 ```js
 const config = {
@@ -15,13 +15,13 @@ const config = {
 ## Languages
 ### JavaScript
 #### Build
-In oder to download the dependencies type:
+In order to download the dependencies type:
 ```shell
 npm i
 ```
 
 #### Build
-In oder to download start the scripts type:
+In order to start the script type:
 ```shell
 node script.js
 ```
