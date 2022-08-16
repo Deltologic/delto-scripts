@@ -14,7 +14,7 @@ npm i
 ```
 
 #### Build
-In order to download start the scripts type:
+In order to start the script type:
 ```shell
 node script.js
 ```
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 #### Build
-In order to download start the scripts type:
+In order to start the script type:
 ```shell
 python script.py
 ```
