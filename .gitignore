@@ -1,12 +1,21 @@
 # python
 venv
+**/venv/**
 env
+**/env/**
+__pycache__
 **/__pycache__/**
 
 # js
 node_modules
+**/node_modules/**
 
 # ide
 .idea
 
+
+**/.idea/**
+
+
+# mac
 .DS_Store
