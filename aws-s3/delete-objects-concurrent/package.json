@@ -1,0 +1,13 @@
+{
+  "name": "delete-objects-concurrent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1194.0"
+  }
+}
