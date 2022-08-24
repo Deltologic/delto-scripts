@@ -9,7 +9,7 @@ if it contains ticket number, for corresponding page in Notion
 link to PR is pasted into proper field.
 
 ## Video
-![Video](media/video.mp4)
+https://user-images.githubusercontent.com/56962880/186403998-bd24a368-dc4d-4ddb-b6cc-11f5f72bc265.mp4
 
 ## Languages
 ### Javascript (Node.js)
