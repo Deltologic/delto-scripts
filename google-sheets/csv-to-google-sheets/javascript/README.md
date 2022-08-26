@@ -2,6 +2,9 @@
 ## Description
 A script that reads data from a CSV file and adds it to a designated Google sheet.
 
+## Video
+https://user-images.githubusercontent.com/56962880/186873701-133f7daa-5ddb-4400-b75a-f10a9ef840f3.mp4
+
 ## Languages
 ### Javascript (Node.js)
 #### Dependencies
