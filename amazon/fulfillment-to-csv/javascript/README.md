@@ -25,7 +25,7 @@ You need to change the following variables (credentials) to those assigned to yo
 [If you're having trouble getting this data, you can use the Deltologic CEO's video,
 where he shows you how to properly set up your account](https://youtu.be/bHBFElmWRNg)
 ### Query parameters
-In case you want to change marketplaces, interval time or granularity, change
+In case you want to change marketplaces or products, replace
 the value of below in `config.json`. If `sellerSkus` is empty, all products from your Amazon account
 will be proceeded.
 ```json
