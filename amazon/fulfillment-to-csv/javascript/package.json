@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "amazon-sp-api": "^0.7.10",
+    "csv-writer": "^1.6.0"
+  }
+}
