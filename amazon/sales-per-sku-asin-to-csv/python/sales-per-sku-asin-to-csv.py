@@ -54,7 +54,16 @@ def script() -> None:
             for product in PRODUCTS:
                 # call SP API for metrics https://developer-docs.amazon.com/sp-api/docs/sales-api-v1-reference
                 sales = Sales(credentials=CREDENTIALS, marketplace=marketplaceId)
-                res = sales.get_order_metrics(interval=INTERVAL, granularity=GRANULARITY)
+                res = sales.get_order_metrics(
+                    interval=INTERVAL,
+                    granularity=GRANULARITY,
+                    asin=product
+                ) if PRODUCT_IDENTIFIER == 'asin' else \
+                    sales.get_order_metrics(
+                        interval=INTERVAL,
+                        granularity=GRANULARITY,
+                        sku=product
+                    )
                 metric = res.payload[0]
 
                 # write received record to csv file
